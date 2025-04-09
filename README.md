@@ -38,3 +38,30 @@ To install the necessary libraries, run the following command:
 
 ```bash
 pip install scapy requests
+```
+
+## Usage
+
+Once you have installed the dependencies, follow these steps to use the tool:
+
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/yourusername/UhmegleSniffer.git
+    cd UhmegleSniffer
+    ```
+
+2. Run the sniffer:
+
+    ```bash
+    python sniffer.py
+    ```
+
+This will start sniffing UDP packets on the specified network interface (default: `eth0`). It will capture IP addresses and perform geolocation lookups.
+
+### Network Interface
+
+Make sure to replace the `INTERFACE` variable in the code with the correct network interface for your system (e.g., `wlan0` for Wi-Fi on Linux systems, or `en0` on macOS). If you're unsure of your network interface, you can find it by running:
+
+- **Linux/macOS**: `ifconfig` or `ip a`
+- **Windows**: `ipconfig`
