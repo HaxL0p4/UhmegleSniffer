@@ -1,12 +1,12 @@
 # UhmegleSniffer
 
-**UhmegleSniffer** is a Python-based tool designed to capture and analyze UDP traffic from Omegle. It identifies external IPs and performs geolocation lookups to retrieve geographic information such as city, region, and ISP. This tool leverages network sniffing techniques to extract IP addresses of Omegle users for research and educational purposes.
+**UhmegleSniffer** is a Python-based tool designed to capture and analyze UDP traffic from Omegle/Uhmegle. It identifies external IPs and performs geolocation lookups to retrieve geographic information such as city, region, and ISP. This tool leverages network sniffing techniques to extract IP addresses of Omegle/Uhmegle.
 
 ---
 
 ## Features
 
-- **Captures UDP traffic** from Omegle.
+- **Captures UDP traffic** from Omegle/Uhmegle.
 - **Identifies external IP addresses**.
 - **Performs geolocation lookups** to provide city, region, and ISP information.
 - **Excludes IPs related to Cloudflare** to avoid false positives.
@@ -24,3 +24,5 @@ Ensure that you have Python 3.6+ installed on your machine. You can check your P
 
 ```bash
 python --version
+
+If you don't have Python installed, you can download it from [python.org](https://www.python.org/).
