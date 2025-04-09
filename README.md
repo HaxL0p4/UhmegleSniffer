@@ -24,5 +24,17 @@ Ensure that you have Python 3.6+ installed on your machine. You can check your P
 
 ```bash
 python --version
-
+```
 If you don't have Python installed, you can download it from [python.org](https://www.python.org/).
+
+### Required Libraries
+
+UhmegleSniffer requires the following Python libraries:
+
+- **scapy**: A powerful Python library for network packet manipulation and sniffing.
+- **requests**: A simple HTTP library for making requests, used for geolocating IPs.
+
+To install the necessary libraries, run the following command:
+
+```bash
+pip install scapy requests
