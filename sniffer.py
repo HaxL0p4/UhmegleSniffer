@@ -29,9 +29,9 @@ def packet_callback(packet):
             geolocate_ip(ip)
 
 if __name__ == '__main__':
-    INTERFACE = "eth0"
+    INTERFACE = input("Interface (es. wlan0) : )
 
-    print(f"[*] Starting sniffer on {INTERFACE} (only UDP traffic)")
+    print(f"\n[*] Starting sniffer on {INTERFACE} (only UDP traffic)")
     print("[*] Press CTRL+C to stop.\n")
 
     try:
